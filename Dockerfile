@@ -1,3 +1,3 @@
 FROM ethereum/client-go:alpine
 
-CMD ["--rpc"]
+CMD ["--rpc", "--fast","--cache=1024"]
