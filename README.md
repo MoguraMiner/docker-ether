@@ -4,7 +4,7 @@
 ```bash
 docker ps
 ```
-###Run shell inside container:
+### Run shell inside container:
 ```bash
 docker exec -it <CONTAINER_ID> sh
 ```
