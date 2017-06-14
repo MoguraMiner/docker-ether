@@ -1,3 +1,3 @@
 #!/bin/bash
 
-docker exec -it $(docker ps -a -q) sh
+docker exec -it $(docker ps -a | grep geth | awk '{print $1;}') sh
