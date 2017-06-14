@@ -1,6 +1,6 @@
-#Docker Container for geth
-##Useful Commands:
-###List out container IDs to get ID for container:
+# Docker Container for geth
+## Useful Commands:
+### List out container IDs to get ID for container:
 ```bash
 docker ps
 ```
